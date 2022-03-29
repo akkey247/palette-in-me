@@ -30,7 +30,7 @@ jobs:
 
       - run: yarn install && yarn run build
 
-      - run: echo palette-in.me > ./build/CNEME
+      - run: echo palette-in.me > ./build/CNAME
 
       - uses: peaceiris/actions-gh-pages@v3
         with:
